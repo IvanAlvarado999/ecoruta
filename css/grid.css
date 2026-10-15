@@ -4,10 +4,30 @@
    ========================================================= */
 
 /* Actividad 1: cabecera y hero */
+.cabecera {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu ul { display: grid; grid-auto-flow: column; gap: 1.5rem; }
 
+.hero {
+    display: grid;
+    place-items: center;
+}
 
 /* Actividad 2: tarjetas */
+.tarjetas {
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+     gap: 1.5rem;
+}
 
+.tarjeta {
+     display: grid;
+     grid-template-rows: auto 1fr auto;
+}
 
 /* Actividad 3: estructura y pie */
 
