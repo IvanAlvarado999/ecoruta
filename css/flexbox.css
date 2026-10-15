@@ -28,7 +28,14 @@
 .enlace { margin-top: auto; }
 
 /* Actividad 3: estructura y pie */
+.tarjetas { display: flex; gap: 1.5rem; }
 
+.tarjeta {
+     display: flex;
+     flex: 1;
+     flex-direction: column;
+}
+.enlace { margin-top: auto; }
 
 /* Actividad 4: galería */
 
